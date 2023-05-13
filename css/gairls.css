@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: rgba(229, 229, 229, 0.78);
+}
+
+header {
+  background-color: #C7C7C7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.header-container {
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+  height: 50px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 128px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+a {
+  margin-right: 10px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.a:hover {opacity: 0.6}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+  flex-wrap: nowrap;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 90px;
+}
+
+.home-link {
+  text-decoration: none; 
+  color: black;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.home-link:hover {opacity: 0.6}
+
+.home-link h1 {
+  font-size: 32px;
+  line-height: 50px;
+}
+
+a {
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 24px;
+}
+
+main {
+  padding: 10px;
+}
+
+.gairls-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.gairls-banner h1 {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 155px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 8px 8px rgba(0,0,0,0.5);
+}
+
+.gairls-banner-img {
+  display: flex;
+  justify-content: center;
+}
+
+#Gairls {
+  width: 1004px;
+  height: 1338px;
+  object-fit: cover;
+}
+
+.gairls-banner-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 1251px;
+  margin: 0 auto;
+}
+
+.gairls-banner-description {
+  text-align: left;
+}
+
+.gairls-banner-description h3 {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.gairls-banner-paragraph {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+}
+
+.gairls-layout {
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.gairls-detail2,
+.gairls-detail3,
+.gairls-detail4,
+.gairls-detail5,
+.gairls-detail-decs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 80px;
+}
+
+.gairls-detail2 img {
+  width: 670px;
+  height: 883px;
+  object-fit: cover;
+}
+
+.gairls-detail-decs {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.gairls-detail3 img {
+  width: 670px;
+  height: 883px;
+  object-fit: cover;
+}
+
+.gairls-detail4 img {
+  width: 670px;
+  height: 883px;
+  object-fit: cover;
+}
+
+.gairls-detail5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0px;
+}
+
+.gairls-detail5 img {
+  width: 670px;
+  height: 883px;
+  object-fit: cover;
+}
+.gairls-detail-research {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500px;
+}
+
+.gairls-arrow {
+  margin-left: 150px;
+  margin-right: -250px;
+}
+
+.gairls-arrow img {
+  display: inline-block;
+}
+
+.gairls-arrow-down {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+footer {
+  background-color: lightgrey;
+  padding: 10px;
+  text-align: center;
+}
